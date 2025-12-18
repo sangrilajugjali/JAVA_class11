@@ -15,9 +15,7 @@ public class AdvanceNumGuess {
 
         if (guess == secretNumber) {
             System.out.println("Correct! You guessed the number.");
-        } else if (guess * 2 == secretNumber) {
-            System.out.println("Half of the secret number!");
-        } else if (difference == 1) {
+        }  else if (difference == 1) {
             System.out.println("Too near!");
         } else if (difference <= 2) {
             System.out.println("Near! Try again.");
